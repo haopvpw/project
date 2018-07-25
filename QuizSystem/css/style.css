@@ -1,0 +1,244 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.5em;
+color:#039;
+background:#ccc;
+font-family:times new roman;
+font-size:14px;
+}
+.wrapper
+{
+width:1000px;
+margin:0 auto;
+}
+.container
+{
+float:left;
+width:1000px;
+height:auto;
+background:#fff;
+border:1px solid brown;
+}
+.header
+{
+width:1000px;
+height:60px;
+float:left;
+}
+.header h1
+{
+margin-top:20px;
+text-align:center;
+font-size:22px;
+color:#59328F;
+text-decoration:underline;
+
+}
+/* menu */
+.menu
+{
+float:left;
+width:1000px;
+height:30px;
+margin-top:20px;
+border-bottom:1px solid #59328F;
+}
+.menu ul
+{
+list-style:none;
+text-align:center;
+}
+.menu ul li
+{
+display:inline;
+padding:10px
+}
+.menu ul li a
+{
+text-decoration:none;
+color:#78328F;
+font-size:16px;
+}
+.slider
+{
+float:left;
+width:993px;
+height:320px;
+border:4px solid #0EEAED;
+box-shadow:1px 1px 5px 1px #0EEAED;
+}
+.footer
+{
+float:left;
+width:993px;
+height:60px;
+border:4px solid #0EEAED;
+box-shadow:1px 1px 5px 1px #0EEAED;
+}
+.footer p
+{
+text-align:center;
+font-size:18px;
+margin-top:20px;
+color:#19235D;
+}
+.registrationcomponent
+{
+float:left;
+width:800px;
+height:auto;
+}
+.innerform
+{
+margin-left:100px;
+margin-top:20px;
+}
+.innerform form .field
+{
+min-height:40px;
+}
+.innerform form .field label
+{
+float:left;
+width:150px;
+text-decoration:none;
+color:#19235D;
+font-weight:bold;
+
+}
+.innerform form .field input[type='text'],input[type='password']
+{
+width:250px;
+height:30px;
+border:1px solid #ccc;
+background:none;
+color:#19235B;
+
+}
+.button
+{
+margin-top:20px;
+margin-left:160px;
+margin-bottom:20px;
+}
+.button input[type="submit"], input[type="reset"]
+{
+width:60px;
+height:30px;
+color:#fff;
+background:#19235B;
+border:none;
+font-weight:bold;
+cursor:pointer;
+
+}
+.thank-msg
+{
+width:800px;
+text-align:center;
+height:auto;
+margin-bottom:20px;
+margin-top:20px;
+}
+.thank-msg p
+{
+margin-top:20px;
+margin-bottom:20px;
+font-size:22px;
+color:#19235B;
+}
+.login
+{
+float:left;
+width:800px;
+height:auto;
+}
+.login form
+{
+margin-left:150px;
+margin-top:10px;
+margin-bottom:20px;
+}
+.login form .field
+{
+height:40px;
+}
+.login form .field label
+{
+float:left;
+width:150px;
+color:#19235B;
+font-weight:bold;
+
+}
+.login form .field input[type="text"], input[type='password']
+{
+width:200px;
+height:30px;
+border:1px solid #ccc;
+background:none;
+}
+.login form .loginbutton 
+{
+margin-top:20px;
+margin-left:156px;
+
+}
+.login form .loginbutton  input[type="submit"], input[type="reset"]
+{
+width:60px;
+height:40px;
+border:none;
+background:brown;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+.login ul
+{
+text-align:center;
+list-style-type:none;
+}
+.login ul li
+{
+padding-top:15px;
+padding-bottom:15px;
+}
+.login ul li a
+{
+text-decoration:none;
+font-size:16px;
+
+}
+.login ul li a:hover
+{
+color:brown;
+text-decoration:underline;
+}
+.admin-here
+{
+float:left;
+width:1000px;
+height:auto;
+background:#191B7A;
+color:#fff;
+margin-bottom:10px;
+}
+.admin-here .data
+{
+padding-top:20px;
+padding-bottom:20px;
+float:left;
+width:1000px;
+margin-left:10px;
+}
+ .admin-here .data a
+ {
+ text-decoration:underline;
+ color:#fff;
+ font-weight:bold;
+ }
